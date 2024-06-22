@@ -1,8 +1,6 @@
 package main
 
-import "net"
-
 type Message struct {
-	sender  net.Conn
+	player  *Player
 	payload []byte
 }
